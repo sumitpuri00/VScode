@@ -10,7 +10,6 @@ public class rohit implements test2 {
           System.out.println("this is sumit hello 2");
         }
 
-//iukihkjhkk
+
 }  
-//  ?sumit  puri
 
