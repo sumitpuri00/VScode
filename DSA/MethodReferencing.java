@@ -1,4 +1,7 @@
 package DSA;
+
+import java.util.Arrays;
+
 class Axis{
           public void sumitMethod(){
 
@@ -6,6 +9,9 @@ class Axis{
 }
 public class MethodReferencing {
           public static void main(String[] args) {
+                    // number of parameter should be same as out functionalInterface, return type 
+                    // can be different.
                     
+
           }
 }
