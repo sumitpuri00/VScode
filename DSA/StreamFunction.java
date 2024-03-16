@@ -16,6 +16,8 @@ public class StreamFunction {
                     int sumit[]={7,35,5};
                     IntStream.of(sumit).forEach(System.out::print);
                     Arrays.stream(new int[]{6,9,4,2,4}).map(sum -> sum+2).forEach(System.out::println);
+                    String names[]={"huis","jig","njod","jid"};
+                    Stream.of(names).map(sui->sui.length()).forEach(System.out::println);
                     
                     // for regular wrapper arrays  
                     List.of("sumit","vanya","puri").stream().forEach(System.out::print);
