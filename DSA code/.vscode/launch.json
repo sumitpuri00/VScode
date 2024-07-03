@@ -1,0 +1,70 @@
+{
+          // Use IntelliSense to learn about possible attributes.
+          // Hover to view descriptions of existing attributes.
+          // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+          "version": "0.2.0",
+          "configurations": [
+                    {
+                              "type": "java",
+                              "name": "Resursion",
+                              "request": "launch",
+                              "mainClass": "Resursion",
+                              "projectName": "JavaScript_b4320675"
+                    },
+                    {
+                              "type": "java",
+                              "name": "BitOperator",
+                              "request": "launch",
+                              "mainClass": "BitOperator",
+                              "projectName": "JavaScript_b4320675"
+                    },
+                    {
+                              "type": "java",
+                              "name": "Stringss",
+                              "request": "launch",
+                              "mainClass": "Stringss",
+                              "projectName": "JavaScript_b4320675"
+                    },
+                    {
+                              "type": "java",
+                              "name": "Arra",
+                              "request": "launch",
+                              "mainClass": "Arra",
+                              "projectName": "JavaScript_b4320675"
+                    },
+                    {
+                              "type": "java",
+                              "name": "Arrays",
+                              "request": "launch",
+                              "mainClass": "Arrays",
+                              "projectName": "JavaScript_b4320675"
+                    },
+                    {
+                              "type": "java",
+                              "name": "Current File",
+                              "request": "launch",
+                              "mainClass": "${file}"
+                    },
+                    {
+                              "type": "java",
+                              "name": "Input",
+                              "request": "launch",
+                              "mainClass": "Input",
+                              "projectName": "JavaScript_b4320675"
+                    },
+                    {
+                              "type": "java",
+                              "name": "MethodReflection",
+                              "request": "launch",
+                              "mainClass": "MethodReflection",
+                              "projectName": "JavaScript_b4320675"
+                    },
+                    {
+                              "type": "java",
+                              "name": "Refress",
+                              "request": "launch",
+                              "mainClass": "Refress",
+                              "projectName": "JavaScript_b4320675"
+                    }
+          ]
+}
