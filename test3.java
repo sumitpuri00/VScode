@@ -1,5 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class test3  {
+          static int  h(){
+                    if(1==1){
+                              return 0;
+                    }
+                    return (Integer) null;
+          }
           public static void main(String[] args) {
                     // System.out.println("jj");
                     // // rohit my=new rohit();
@@ -14,6 +22,10 @@ public class test3  {
                     // test2 
                     rohit i=new rohit();
                     i.helloSumit2();
+                    
                     // i.helloSumit();
+
+                  
+                 
           }
 }

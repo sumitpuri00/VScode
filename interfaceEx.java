@@ -29,5 +29,6 @@ public class interfaceEx {
                     // suObj.print(); this gives an error because only method which are 
                     // inside the sumit interface are called ; because we are storing child refrence
                     // inside the parent class; 
+                    
           }
 }

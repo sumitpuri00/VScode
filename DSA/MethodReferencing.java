@@ -1,7 +1,5 @@
 package DSA;
 
-import java.util.Arrays;
-
 class Axis{
           public void sumitMethod(){
 
