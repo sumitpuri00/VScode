@@ -116,10 +116,37 @@ public class Resursion {
                               arr[i]=tmpArr[k];
                     }
           }
+          static void  quickSort(int si,int ei,int arr[]){
+                    if (si>=ei) {
+                              return;
+                    }
+                    int pivot=findPivot(si,ei,arr);
+                    quickSort(si, pivot-1, arr);
+                    quickSort(pivot+1, ei, arr);
+
+          }
+          static int findPivot(int si,int ei,int arr[]){
+                    // int pivot=arr[ei];
+                    int i=si-1;
+                    for(int j=si;j<ei;j++){
+                              if (arr[j]<=arr[ei]) {
+                                        i++;
+                                        int temp=arr[j];
+                                        arr[j]=arr[i];
+                                        arr[i]=temp;
+                              }
+                    }
+                    i++;
+                    int temp=arr[ei];
+                    arr[ei]=arr[i];
+                    arr[i]=temp;
+
+                    return i;
+          }
 
           public static void main(String[] args) {
-                    int arr[]={5,2,7,4};
-                    mergSort(0, arr.length-1, arr);
+                    int arr[]={3,2,9,8,6,5};
+                    quickSort(0, arr.length-1, arr);
                     System.out.println(Arrays.toString(arr));
 
           }
