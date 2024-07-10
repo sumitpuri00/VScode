@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class Backtracking {
+          static int count;
           static void arrBacktrack(int arr[],int i){
                     if (i==arr.length) {
                               System.out.println(Arrays.toString(arr));
@@ -48,6 +49,7 @@ public class Backtracking {
           static void nQueen(char board[][],int row){
                     if (row==board.length) {
                               print(board);
+                              count++;
                               return;
                     }
                     for(int j=0;j<board[0].length;j++){
@@ -71,7 +73,7 @@ public class Backtracking {
 
                     // for left diagonal;
                     for(int i=row-1, j=column-1; i>=0 && j>=0 ; i-- ,j--){
-                              if (board[i][column]=='Q') {
+                              if (board[i][j]=='Q') {
                                         return false;
                               }
 
@@ -87,9 +89,14 @@ public class Backtracking {
 
                     return true;
           }
+          
+          
           public static void main(String[] args) {
+          
+
+
                     // permutation("abc",  "");
-                    int n=3;
+                    int n=4;
                     char board[][]=new char[n][n];
 
                     // filling the values inside the matrix
@@ -100,10 +107,11 @@ public class Backtracking {
                     }
 
                     nQueen(board, 0);
-                    
+                    System.out.println(count);
                   
-
-
+                   
+                    
 
           }
 }
+ 
