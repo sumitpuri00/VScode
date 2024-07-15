@@ -7,7 +7,7 @@ class sumit{
         this.num=num;
     }
     int num;
-    void name(){
+    static void name(){
         System.out.println(" this is parent name");
     }
 }
@@ -19,8 +19,11 @@ public class Refress extends sumit{
         System.out.println("this is");
     }
     
+    
+    
     void anime(){
-        super.name();
+         
+        
         System.out.println();
     }
     public static void main(String[] args) {

@@ -38,7 +38,7 @@ public class LinkedList <T>{
                               }
                     }
           }
-          int sumit;
+          T sumit;
           public static void main(String[] args) {
                     System.out.println("this is sumit");
                     // var LinkedListObj=new LinkedList();

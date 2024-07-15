@@ -1,0 +1,7 @@
+/**
+ * MergeSortLinkedList
+ */
+public class SolveError {
+
+    
+}
