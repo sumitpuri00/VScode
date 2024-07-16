@@ -1,5 +1,72 @@
 import java.util.*;
-public class LinkedLists {
+class DoubleLL{
+    class Node{
+        int data;
+        Node next;
+        Node prev;
+        Node(int data){
+            this.data=data;
+            this.next=null;
+            this.prev=null;
+        }
+
+    }
+    Node head;
+    Node tail;
+    void addlast(int data){
+        Node newNode=new Node(data);
+        if (head==null) {
+            head=tail=newNode;
+            return;
+        }
+
+        tail.next=newNode;
+        newNode.prev=tail;
+        tail=newNode;
+        
+    }
+
+    void printDll(Node head){
+        Node tempHead=head;
+        if (head==null) {
+            System.out.println("DLL is Empty;");
+             
+        }else if (head.next==null && head.prev==null ) {
+            System.out.print(head.data+" ");
+            
+        }else if (head.next==null) {
+            while (tempHead != null) {
+                System.out.print(tempHead.data+" ");
+                tempHead=tempHead.prev;
+            }           
+        }else{
+            while (tempHead != null) {
+                System.out.print(tempHead.data+" ");
+                tempHead=tempHead.next;
+            }           
+        }
+
+        
+        
+    }
+        
+    public static void main(String[] args) {
+        DoubleLL dll=new DoubleLL();
+        dll.addlast(3);
+        dll.addlast(6);
+        dll.addlast(5);
+        dll.addlast(9);
+        
+        
+        dll.printDll(dll.head);
+        System.out.println();
+        dll.printDll(dll.tail);
+
+        
+    }
+}
+
+class LinkedLists {
           static class Node{
                     int data;
                     Node next;
@@ -335,3 +402,5 @@ public class LinkedLists {
         
           }
 }
+
+
